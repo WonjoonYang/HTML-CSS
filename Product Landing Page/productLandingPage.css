@@ -1,0 +1,48 @@
+body{
+	margin:0;
+}
+header{
+	display:flex;
+	flex-direction:row;
+	align-items:center;
+	justify-content:center;
+	background-color:black;
+}
+main{
+	margin:1em;
+}
+#img-container{
+	width:20px;
+}
+#header-img{
+	width:100%;
+}
+#video-container{
+	text-align:center;
+	width:100%;
+}
+nav{
+	width:75vw;
+}
+ul {
+	display:flex;
+	flex-direction:row;
+	list-style: none;
+	justify-content:space-between;
+}
+li{
+	width:20%;
+}
+a{
+	text-decoration: none;
+	color:white;
+	opacity:0.8;
+}
+a:hover{
+	opacity:1;
+}
+@media(max-width:700px){
+	iframe{
+		width:400px;
+	}
+}
