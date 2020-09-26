@@ -1,82 +1,119 @@
 <!DOCTYPE html>
-<head>
-	<link rel="stylesheet" href="techDoc.css">
-</head>
-<body>
-	<nav>
-		<header>
+<html>
+	<head>
+		<link rel="stylesheet" href="techDoc.css">
+	</head>
+	<body>
+		<nav id="navbar">
+			<header>
+				<h1>
+					Intro to HTML
+				</h1>
+			</header>
 			<ul>
 				<li>
-					<a class=".nav-link" href="#introduction">Introduction</a>
+					<a class="nav-link" href="#Introduction">Introduction</a>
 				</li>
 				<li>
-					<a class=".nav-link" href="#prerequisites">Prerequisites</a>
+					<a class="nav-link" href="#Prerequisites">Prerequisites</a>
 				</li>
 				<li>
-					<a class=".nav-link" href="#HTMLVsCSS">Differences Between HTML Vs. CSS</a>
+					<a class="nav-link" href="#Differences_Between_HTML_Vs._CSS">Differences Between HTML Vs. CSS</a>
 				</li>
 				<li>
-					<a class=".nav-link" href="#htmlElement">HTML Element</a>
+					<a class="nav-link" href="#Hello_World">Hello World</a>
 				</li>
 				<li>
-					<a class=".nav-link" href=""></a>
+					<a class="nav-link" href="#HTML_Element">HTML Element</a>
+				</li>
+				<li>
+					<a class="nav-link" href="#Examples_of_HTML_Element">Examples of HTML Element</a>
 				</li>
 			</ul>
-		</header>
-	</nav>
-	<main id="main-doc">
-		<section class="main-section" id="introduction">
-			<header>Introduction</header>
-			<p>
-				&emsp;HTML (HyperText Markup Language) is the most basic building block of the Web. It defines the meaning and structure of web content. Other technologies besides HTML are generally used to describe a web page's appearance/presentation (CSS) or functionality/behavior (JavaScript).
-			</p>
-			<p>
-				&emsp;"Hypertext" refers to links that connect web pages to one another, either within a single website or between websites. Links are a fundamental aspect of the Web. By uploading content to the Internet and linking it to pages created by other people, you become an active participant in the World Wide Web.
-			</p>
-			<p>
-				&emsp;HTML uses "markup" to annotate text, images, and other content for display in a Web browser. HTML markup includes special "elements" such as <code>&lt;head&gt;</code>, <code>&lt;title&gt;</code>, <code>&lt;body&gt;</code>, <code>&lt;header&gt;</code>, <code>&lt;footer&gt;</code>, <code>&lt;article&gt;</code>, <code>&lt;section&gt;</code>, <code>&lt;p&gt;</code>, <code>&lt;div&gt;</code>, <code>&lt;span&gt;</code>, <code>&lt;img&gt;</code>, <code>&lt;aside&gt;</code>, <code>&lt;audio&gt;</code>, <code>&lt;canvas&gt;</code>, <code>&lt;datalist&gt;</code>, <code>&lt;details&gt;</code>, <code>&lt;embed&gt;</code>, <code>&lt;nav&gt;</code>, <code>&lt;output&gt;</code>, <code>&lt;progress&gt;</code>, <code>&lt;video&gt;</code>, <code>&lt;ul&gt;</code>, <code>&lt;ol&gt;</code>, <code>&lt;li&gt;</code> and many others.
-			</p>
-			<p>
-				&emsp;An HTML element is set off from other text in a document by "tags", which consist of the element name surrounded by "<code>&lt;"</code> and <code>"&gt;</code>".  The name of an element inside a tag is case insensitive. That is, it can be written in uppercase, lowercase, or a mixture. For example, the <code>&lt;title&gt;</code> tag can be written as <code>&lt;Title&gt;</code>, <code>&lt;TITLE&gt;</code>, or in any other way.
-			</p>
-		</section>
-		<section class="main-section" id="prerequisites">
-			<header>Prerequisites</header>
-			<p>
-				&emsp;Before starting this module, you don't need any previous HTML knowledge, but you should have at least basic familiarity with using computers and using the web passively (i.e., just looking at it and consuming content). You should have a basic work environment set up (as detailed in Installing basic software), and understand how to create and manage files (as detailed in Dealing with files). Both are parts of our Getting started with the web complete beginner's module.
-			</p>
-		</section>
-		<section class="main-section" id="HTMLVsCSS">
-			<header>Differences Between HTML Vs. CSS</header>
-			<p>
-				&emsp;HTML (Hypertext Mark-up Language) and CSS (Cascading Style Sheets) are two of the core web scripting languages for building web pages and web applications. HTML provides the structure of web pages whereas CSS is mainly used to control the styling and layout (visual and aural) of web pages. HTML provides tags that are surrounding the content of any web page elements.TML markup consists of different types of components, including tags, entity references, character-based types, and references. CSS is the style sheet language for describing the presentation and design of web pages including colors, fonts, and layouts. It is mainly designed to enable the distinction between presentation and content, including colors, layouts, and fronts.
-			</p>
-		</section>
-		<section class="main-section" id="helloWorld">
-			<header>Hello world</header>
-			<p>
-				&emsp;To get started with writing HTML, open an IDE and write your first "Hello world" HTML code:
-				<code class="code-block">
-					&lt;h1&gt;
-						Hello World!
-					&lt;/h1&gt;
-				</code>
-					&emsp;The output generated by this HTML looks like this:
-				<code class="code-block">
-						Hello World!
-				</code>
-			</p>
-		</section>
-		<section class="main-section" id="htmlElement">
-			<header>HTML Element</header>
-			<p>
-				&emsp;HTML consists of a series of elements, which you use to enclose, wrap, or mark up different parts of content to make it appear or act in a certain way. The enclosing tags can make content into a hyperlink to connect to another page, italicize words, and so on.
-			</p>
-			<p>
-				Let's further explore pargraph elemnt as an example. The HTML <code>&lt;p&gt;</code> element represents a paragraph.
-				<img src="https://media.prod.mdn.mozit.cloud/attachments/2014/11/14/9347/c07aa313dbdd667585430f4eca354dbd/grumpy-cat-small.png">
-			</p>
-			<!-- https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started-->
-		</section>
-	</main>
-</body>
+		</nav>
+		<main id="main-doc">
+			<section class="main-section" id="Introduction">
+				<header>Introduction</header>
+				<p>
+					&emsp;HTML (HyperText Markup Language) is the most basic building block of the Web. It defines the meaning and structure of web content. Other technologies besides HTML are generally used to describe a web page's appearance/presentation (CSS) or functionality/behavior (JavaScript).
+				</p>
+				<p>
+					&emsp;"Hypertext" refers to links that connect web pages to one another, either within a single website or between websites. Links are a fundamental aspect of the Web. By uploading content to the Internet and linking it to pages created by other people, you become an active participant in the World Wide Web.
+				</p>
+				<p>
+					&emsp;HTML uses "markup" to annotate text, images, and other content for display in a Web browser. HTML markup includes special "elements" such as <code>&lt;head&gt;</code>, <code>&lt;title&gt;</code>, <code>&lt;body&gt;</code>, <code>&lt;header&gt;</code>, <code>&lt;footer&gt;</code>, <code>&lt;article&gt;</code>, <code>&lt;section&gt;</code>, <code>&lt;p&gt;</code>, <code>&lt;div&gt;</code>, <code>&lt;span&gt;</code>, <code>&lt;img&gt;</code>, <code>&lt;aside&gt;</code>, <code>&lt;audio&gt;</code>, <code>&lt;canvas&gt;</code>, <code>&lt;datalist&gt;</code>, <code>&lt;details&gt;</code>, <code>&lt;embed&gt;</code>, <code>&lt;nav&gt;</code>, <code>&lt;output&gt;</code>, <code>&lt;progress&gt;</code>, <code>&lt;video&gt;</code>, <code>&lt;ul&gt;</code>, <code>&lt;ol&gt;</code>, <code>&lt;li&gt;</code> and many others.
+				</p>
+				<p>
+					&emsp;An HTML element is set off from other text in a document by "tags", which consist of the element name surrounded by "<code>&lt;"</code> and <code>"&gt;</code>".  The name of an element inside a tag is case insensitive. That is, it can be written in uppercase, lowercase, or a mixture. For example, the <code>&lt;title&gt;</code> tag can be written as <code>&lt;Title&gt;</code>, <code>&lt;TITLE&gt;</code>, or in any other way.
+				</p>
+			</section>
+			<section class="main-section" id="Prerequisites">
+				<header>Prerequisites</header>
+				<p>
+					&emsp;Before starting this module, you don't need any previous HTML knowledge, but you should have at least basic familiarity with using computers and using the web passively (i.e., just looking at it and consuming content). You should have a basic work environment set up (as detailed in Installing basic software), and understand how to create and manage files (as detailed in Dealing with files). Both are parts of our Getting started with the web complete beginner's module.
+				</p>
+			</section>
+			<section class="main-section" id="Differences_Between_HTML_Vs._CSS">
+				<header>Differences Between HTML Vs. CSS</header>
+				<p>
+					&emsp;HTML (Hypertext Mark-up Language) and CSS (Cascading Style Sheets) are two of the core web scripting languages for building web pages and web applications. HTML provides the structure of web pages whereas CSS is mainly used to control the styling and layout (visual and aural) of web pages. HTML provides tags that are surrounding the content of any web page elements.TML markup consists of different types of components, including tags, entity references, character-based types, and references. CSS is the style sheet language for describing the presentation and design of web pages including colors, fonts, and layouts. It is mainly designed to enable the distinction between presentation and content, including colors, layouts, and fronts.
+				</p>
+			</section>
+			<section class="main-section" id="Hello_World">
+				<header>Hello World</header>
+				<p>
+					&emsp;To get started with writing HTML, open an IDE and write your first "Hello world" HTML code:
+					<code class="code-block">
+						&lt;h1&gt;
+							Hello World!
+						&lt;/h1&gt;
+					</code>
+						&emsp;The output generated by this HTML looks like this:
+					<code class="code-block">
+							Hello World!
+					</code>
+				</p>
+			</section>
+			<section class="main-section" id="HTML_Element">
+				<header>HTML Element</header>
+				<p>
+					&emsp;HTML consists of a series of elements, which you use to enclose, wrap, or mark up different parts of content to make it appear or act in a certain way. The enclosing tags can make content into a hyperlink to connect to another page, italicize words, and so on.
+				</p>
+				<p>
+					Let's further explore pargraph elemnt as an example. 
+					</br>
+					<img src="https://media.prod.mdn.mozit.cloud/attachments/2014/11/14/9347/c07aa313dbdd667585430f4eca354dbd/grumpy-cat-small.png">
+				</p>
+				<p>
+					The HTML <code>&lt;p&gt;</code> element represents a paragraph. The anatomy of our HTML element <code>&lt;p&gt;</code> is:
+					<ul>
+						<li><b>The opening tag: </b>This consists of the name of the element (in this example, p for paragraph), wrapped in opening and closing angle brackets. This opening tag marks where the element begins or starts to take effect. In this example, it precedes the start of the paragraph text.
+						</li>
+						<li>
+							<b>The content: </b>This is the content of the element. In this example, it is the paragraph text.
+						</li>
+						<li>
+							<b>The closing tag: </b>This is the same as the opening tag, except that it includes a forward slash before the element name. This marks where the element ends. Failing to include a closing tag is a common beginner error that can produce peculiar results.
+						</li>
+					</ul>
+				</p>
+				<!-- https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started-->
+			</section>
+			<section class="main-section" id="Examples_of_HTML_Element">
+				<header>Examples of HTML Element</header>
+				The following list enumerates examples of most widely used HTML elements.
+				<ul>
+					<li>
+						<b><code>&lt;h1&gt;</code>-<code>&lt;h6&gt;</code>:</b> The HTML <code>&lt;h1&gt;</code>-<code>&lt;h1&gt;</code>elements represent six levels of section headings. <code>&lt;h1&gt;</code> is the highest section level and <code>&lt;h1&gt;</code> is the lowest.
+					</li>
+					<li>
+						<b><code>&lt;a&gt;</code>:</b> The HTML <code>&lt;a&gt;</code> element (or anchor element), with its href attribute, creates a hyperlink to web pages, files, email addresses, locations in the same page, or anything else a URL can address. Content within each <code>&lt;a&gt;</code> should indicate the link's destination.
+					</li>
+					<li>
+						<b><code>&lt;ul&gt;</code>:</b> The HTML <code>&lt;ul&gt;</code> element represents an unordered list of items, typically rendered as a bulleted list.
+					</li>
+				</ul>
+			</section>
+		</main>
+	</body>
+</html>
